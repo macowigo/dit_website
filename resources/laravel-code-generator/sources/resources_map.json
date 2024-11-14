@@ -1,0 +1,52 @@
+[
+    {
+        "model-name": "Slider",
+        "resource-file": "sliders.json",
+        "table-name": "dit_site_sliders"
+    },
+    {
+        "model-name": "Event",
+        "resource-file": "events.json",
+        "table-name": "dit_site_events"
+    },
+    {
+        "model-name": "News",
+        "resource-file": "news.json",
+        "table-name": "dit_site_news"
+    },
+    {
+        "model-name": "Department",
+        "resource-file": "departments.json",
+        "table-name": "dit_site_department"
+    },
+    {
+        "model-name": "Staff",
+        "resource-file": "staff.json",
+        "table-name": "dit_site_staff"
+    },
+    {
+        "model-name": "Education",
+        "resource-file": "education.json",
+        "table-name": "dit_site_education"
+    },
+    {
+        "model-name": "Skills",
+        "resource-file": "skills.json",
+        "table-name": "dit_site_skill"
+    },
+    {
+        "model-name": "Experience",
+        "resource-file": "experiences.json",
+        "table-name": "dit_site_experience"
+    },
+    {
+        "model-name": "Programme",
+        "resource-file": "programmes.json",
+        "table-name": "dit_site_programmes"
+    },
+    {
+        "model-name": "ShortCourse",
+        "resource-file": "short_courses.json",
+        "table-name": "dit_site_short_courses"
+    }
+]

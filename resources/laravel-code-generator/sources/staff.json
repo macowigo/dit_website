@@ -1,0 +1,1091 @@
+{
+    "fields": [
+        {
+            "name": "id",
+            "labels": {
+                "en": "Id",
+                "sw": "Id"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "",
+            "is-on-index": false,
+            "is-on-show": false,
+            "is-on-form": false,
+            "data-type": "string",
+            "data-type-params": [],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": true,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": true,
+            "is-auto-increment": true,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter id here...",
+                "sw": "Enter id here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "id",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The id of the model.",
+                "sw": "The id of the model."
+            }
+        },
+        {
+            "name": "prefix",
+            "labels": {
+                "en": "Prefix",
+                "sw": "Prefix"
+            },
+            "html-type": "select",
+            "css-class": "",
+            "options": {
+                "en": {
+                    "Mr": "Mr",
+                    "Mrs": "Mrs",
+                    "Ms": "Ms",
+                    "Dr": "Dr",
+                    "Prof": "Prof"
+                },
+                "sw": {
+                    "Mr": "Mr",
+                    "Mrs": "Mrs",
+                    "Ms": "Ms",
+                    "Dr": "Dr",
+                    "Prof": "Prof"
+                }
+            },
+            "html-value": null,
+            "validation": "required",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "enum",
+            "data-type-params": [
+                4
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter prefix here...",
+                "sw": "Enter prefix here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "prefix",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The prefix of the model.",
+                "sw": "The prefix of the model."
+            }
+        },
+        {
+            "name": "fname",
+            "labels": {
+                "en": "Fname",
+                "sw": "Fname"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "required|string|min:1|max:20",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                20
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter fname here...",
+                "sw": "Enter fname here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "fname",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The fname of the model.",
+                "sw": "The fname of the model."
+            }
+        },
+        {
+            "name": "mname",
+            "labels": {
+                "en": "Mname",
+                "sw": "Mname"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable|string|min:0|max:20",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                20
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter mname here...",
+                "sw": "Enter mname here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "mname",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The mname of the model.",
+                "sw": "The mname of the model."
+            }
+        },
+        {
+            "name": "lname",
+            "labels": {
+                "en": "Lname",
+                "sw": "Lname"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "required|string|min:1|max:20",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                20
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter lname here...",
+                "sw": "Enter lname here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "lname",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The lname of the model.",
+                "sw": "The lname of the model."
+            }
+        },
+        {
+            "name": "imgurl",
+            "labels": {
+                "en": "Imgurl",
+                "sw": "Imgurl"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable|string|min:0|max:50",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                50
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter imgurl here...",
+                "sw": "Enter imgurl here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "imgurl",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The imgurl of the model.",
+                "sw": "The imgurl of the model."
+            }
+        },
+        {
+            "name": "email",
+            "labels": {
+                "en": "Email",
+                "sw": "Email"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                20
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter email here...",
+                "sw": "Enter email here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "email",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The email of the model.",
+                "sw": "The email of the model."
+            }
+        },
+        {
+            "name": "phone",
+            "labels": {
+                "en": "Phone",
+                "sw": "Phone"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable|string|min:0",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter phone here...",
+                "sw": "Enter phone here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "phone",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The phone of the model.",
+                "sw": "The phone of the model."
+            }
+        },
+        {
+            "name": "designation",
+            "labels": {
+                "en": "Designation",
+                "sw": "Designation"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "required|string|min:1|max:70",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                70
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter designation here...",
+                "sw": "Enter designation here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "designation",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The designation of the model.",
+                "sw": "The designation of the model."
+            }
+        },
+        {
+            "name": "title",
+            "labels": {
+                "en": "Title",
+                "sw": "Title"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "required|string|min:1|max:70",
+            "is-on-index": true,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                70
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": true,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter title here...",
+                "sw": "Enter title here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "title",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The title of the model.",
+                "sw": "The title of the model."
+            }
+        },
+        {
+            "name": "bio_paragraph1",
+            "labels": {
+                "en": "Bio Paragraph1",
+                "sw": "Bio Paragraph1"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable|string|min:0|max:16777215",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                16777215
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter bio paragraph1 here...",
+                "sw": "Enter bio paragraph1 here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "bio_paragraph1",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The bio paragraph1 of the model.",
+                "sw": "The bio paragraph1 of the model."
+            }
+        },
+        {
+            "name": "bio_paragraph2",
+            "labels": {
+                "en": "Bio Paragraph2",
+                "sw": "Bio Paragraph2"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable|string|min:0|max:16777215",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                16777215
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter bio paragraph2 here...",
+                "sw": "Enter bio paragraph2 here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "bio_paragraph2",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The bio paragraph2 of the model.",
+                "sw": "The bio paragraph2 of the model."
+            }
+        },
+        {
+            "name": "bio_paragraph3",
+            "labels": {
+                "en": "Bio Paragraph3",
+                "sw": "Bio Paragraph3"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "nullable|string|min:0|max:16777215",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [
+                16777215
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter bio paragraph3 here...",
+                "sw": "Enter bio paragraph3 here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "bio_paragraph3",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The bio paragraph3 of the model.",
+                "sw": "The bio paragraph3 of the model."
+            }
+        },
+        {
+            "name": "staff_type",
+            "labels": {
+                "en": "Staff Type",
+                "sw": "Staff Type"
+            },
+            "html-type": "select",
+            "css-class": "",
+            "options": {
+                "en": {
+                    "DIT Top Management": "DIT Top Management",
+                    "Professors and Senior Lecturers": "Professors And Senior Lecturers",
+                    "Lecturers": "Lecturers",
+                    "Assistant Lecturers": "Assistant Lecturers",
+                    "Tutorial Assistants": "Tutorial Assistants",
+                    "Instructors": "Instructors",
+                    "Administrative and Supporting Staff": "Administrative And Supporting Staff"
+                },
+                "sw": {
+                    "DIT Top Management": "DIT Top Management",
+                    "Professors and Senior Lecturers": "Professors And Senior Lecturers",
+                    "Lecturers": "Lecturers",
+                    "Assistant Lecturers": "Assistant Lecturers",
+                    "Tutorial Assistants": "Tutorial Assistants",
+                    "Instructors": "Instructors",
+                    "Administrative and Supporting Staff": "Administrative And Supporting Staff"
+                }
+            },
+            "html-value": null,
+            "validation": "required",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "enum",
+            "data-type-params": [
+                35
+            ],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter staff type here...",
+                "sw": "Enter staff type here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "staff_type",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The staff type of the model.",
+                "sw": "The staff type of the model."
+            }
+        },
+        {
+            "name": "status",
+            "labels": {
+                "en": "Status",
+                "sw": "Status"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "required|string|min:1",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [],
+            "data-value": "0",
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": "0-staff,1-hod,2-dpaf,3-dparc,4-principal",
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter status here...",
+                "sw": "Enter status here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "status",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The status of the model.",
+                "sw": "The status of the model."
+            }
+        },
+        {
+            "name": "department_id",
+            "labels": {
+                "en": "Department",
+                "sw": "Department"
+            },
+            "html-type": "select",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "required",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": true,
+            "data-type": "string",
+            "data-type-params": [],
+            "data-value": null,
+            "is-index": true,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": false,
+            "is-header": false,
+            "is-unsigned": true,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Select department",
+                "sw": "Select department"
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": {
+                "name": "DitSiteDepartment",
+                "type": "belongsTo",
+                "params": [
+                    "App\\Models\\DitSiteDepartment",
+                    "department_id",
+                    "id"
+                ],
+                "field": "id"
+            },
+            "foreign-constraint": {
+                "field": "department_id",
+                "references": "dit_site_department",
+                "on": "id",
+                "on-delete": "restrict",
+                "on-update": "restrict",
+                "references-model": "App\\Models\\DitSiteDepartment",
+                "is-self-reference": false
+            },
+            "on-store": null,
+            "on-update": null,
+            "api-key": "department_id",
+            "is-api-visible": true,
+            "api-description": {
+                "en": "The department of the model.",
+                "sw": "The department of the model."
+            }
+        },
+        {
+            "name": "created_at",
+            "labels": {
+                "en": "Created At",
+                "sw": "Created At"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": false,
+            "data-type": "timestamp",
+            "data-type-params": [],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "j/n/Y g:i A",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter created at here...",
+                "sw": "Enter created at here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "created_at",
+            "is-api-visible": false,
+            "api-description": {
+                "en": "The created at of the model.",
+                "sw": "The created at of the model."
+            }
+        },
+        {
+            "name": "updated_at",
+            "labels": {
+                "en": "Updated At",
+                "sw": "Updated At"
+            },
+            "html-type": "text",
+            "css-class": "",
+            "options": {},
+            "html-value": null,
+            "validation": "",
+            "is-on-index": false,
+            "is-on-show": true,
+            "is-on-form": false,
+            "data-type": "timestamp",
+            "data-type-params": [],
+            "data-value": null,
+            "is-index": false,
+            "is-unique": false,
+            "is-primary": false,
+            "comment": null,
+            "is-nullable": true,
+            "is-header": false,
+            "is-unsigned": false,
+            "is-auto-increment": false,
+            "is-inline-options": false,
+            "is-date": false,
+            "date-format": "j/n/Y g:i A",
+            "cast-as": "",
+            "placeholder": {
+                "en": "Enter updated at here...",
+                "sw": "Enter updated at here..."
+            },
+            "delimiter": "; ",
+            "range": [],
+            "foreign-relation": null,
+            "foreign-constraint": null,
+            "on-store": null,
+            "on-update": null,
+            "api-key": "updated_at",
+            "is-api-visible": false,
+            "api-description": {
+                "en": "The updated at of the model.",
+                "sw": "The updated at of the model."
+            }
+        }
+    ],
+    "relations": [
+        {
+            "name": "ditSiteEducation",
+            "type": "hasOne",
+            "params": [
+                "App\\Models\\DitSiteEducation",
+                "staff_id",
+                "id"
+            ],
+            "field": "id"
+        },
+        {
+            "name": "ditSiteExperience",
+            "type": "hasOne",
+            "params": [
+                "App\\Models\\DitSiteExperience",
+                "staff_id",
+                "id"
+            ],
+            "field": "id"
+        },
+        {
+            "name": "ditSiteSkill",
+            "type": "hasOne",
+            "params": [
+                "App\\Models\\DitSiteSkill",
+                "staff_id",
+                "id"
+            ],
+            "field": "id"
+        }
+    ],
+    "indexes": [],
+    "auto-manage-created-and-updated-at": true,
+    "table-name": "dit_site_staff",
+    "protection": {
+        "is-model-protected": false,
+        "is-controller-protected": false,
+        "is-api-resource-protected": false,
+        "is-api-resource-collection-protected": false,
+        "is-api-documentation-protected": false,
+        "is-api-documentation-controller-protected": false,
+        "is-form-request-protected": false,
+        "is-languages-protected": false,
+        "is-form-view-protected": false,
+        "is-index-view-protected": false,
+        "is-create-view-protected": false,
+        "is-edit-view-protected": false,
+        "is-show-view-protected": false
+    },
+    "api-documentation": {
+        "access_token_with_bearer": {
+            "en": "The access token prefixed with the \"Bearer \" key word.",
+            "sw": "The access token prefixed with the \"Bearer \" key word."
+        },
+        "index_route_description": {
+            "en": "Retrieve existing staff.",
+            "sw": "Retrieve existing staff."
+        },
+        "index_route_response_description": {
+            "en": "The API's response will be JSON based data. The JSON object will be structured as follow",
+            "sw": "The API's response will be JSON based data. The JSON object will be structured as follow"
+        },
+        "the_key_is_the_model_property_and_the_value_is_the_model_value": {
+            "en": "The array's key is the staff property name where the value is the assigned value to the retrieved staff.",
+            "sw": "The array's key is the staff property name where the value is the assigned value to the retrieved staff."
+        },
+        "link_to_retrieve_first_page": {
+            "en": "Link to retrieve first page.",
+            "sw": "Link to retrieve first page."
+        },
+        "link_to_retrieve_last_page": {
+            "en": "Link to retrieve last page.",
+            "sw": "Link to retrieve last page."
+        },
+        "link_to_retrieve_previous_page": {
+            "en": "Link to retrieve previous page.",
+            "sw": "Link to retrieve previous page."
+        },
+        "link_to_retrieve_next_page": {
+            "en": "Link to retrieve next page.",
+            "sw": "Link to retrieve next page."
+        },
+        "the_number_of_current_page": {
+            "en": "The number of current page.",
+            "sw": "The number of current page."
+        },
+        "the_index_of_the_first_retrieved_item": {
+            "en": "The index of first retrieved staff.",
+            "sw": "The index of first retrieved staff."
+        },
+        "the_number_of_the_last_page": {
+            "en": "The number of the last page.",
+            "sw": "The number of the last page."
+        },
+        "the_base_link_to_the_resource": {
+            "en": "The base link to the api resource.",
+            "sw": "The base link to the api resource."
+        },
+        "the_number_of_models_per_page": {
+            "en": "The number of staff per page.",
+            "sw": "The number of staff per page."
+        },
+        "the_index_of_the_last_retrieved_item": {
+            "en": "The index of last retrieved staff.",
+            "sw": "The index of last retrieved staff."
+        },
+        "the_total_of_available_pages": {
+            "en": "The total of the available pages.",
+            "sw": "The total of the available pages."
+        },
+        "store_route_description": {
+            "en": "Create new staff.",
+            "sw": "Create new staff."
+        },
+        "store_route_response_description": {
+            "en": "The API's response will be JSON based data. The JSON object will be structured as follow",
+            "sw": "The API's response will be JSON based data. The JSON object will be structured as follow"
+        },
+        "update_route_description": {
+            "en": "Update existsing staff.",
+            "sw": "Update existsing staff."
+        },
+        "update_route_response_description": {
+            "en": "The API's response will be JSON based data. The JSON object will be structured as follow",
+            "sw": "The API's response will be JSON based data. The JSON object will be structured as follow"
+        },
+        "show_route_description": {
+            "en": "Retrieve existsing staff.",
+            "sw": "Retrieve existsing staff."
+        },
+        "show_route_response_description": {
+            "en": "The API's response will be JSON based data. The JSON object will be structured as follow",
+            "sw": "The API's response will be JSON based data. The JSON object will be structured as follow"
+        },
+        "the_id_of_model_to_retrieve": {
+            "en": "The unique id of the staff to retrieve",
+            "sw": "The unique id of the staff to retrieve"
+        },
+        "destroy_route_description": {
+            "en": "Delete existsing staff.",
+            "sw": "Delete existsing staff."
+        },
+        "destroy_route_response_description": {
+            "en": "The API's response will be JSON based data. The JSON object will be structured as follow",
+            "sw": "The API's response will be JSON based data. The JSON object will be structured as follow"
+        },
+        "the_id_of_model_to_delete": {
+            "en": "The id of the staff to delete.",
+            "sw": "The id of the staff to delete."
+        },
+        "general_description": {
+            "en": "Allows you to list, create, edit, show and delete staff.",
+            "sw": "Allows you to list, create, edit, show and delete staff."
+        },
+        "indicate_whether_the_request_was_successful_or_not": {
+            "en": "Indicate whether the request was successful or not.",
+            "sw": "Indicate whether the request was successful or not."
+        },
+        "the_id_of_the_model": {
+            "en": "The id of the staff.",
+            "sw": "The id of the staff."
+        },
+        "this_parameter_must_be_present_in_the_request": {
+            "en": "This parameter must be present in the request.",
+            "sw": "This parameter must be present in the request."
+        },
+        "the_request_failed_validation": {
+            "en": "The request failed validation.",
+            "sw": "The request failed validation."
+        },
+        "list_of_the_invalid_errors": {
+            "en": "List of the invalid errors.",
+            "sw": "List of the invalid errors."
+        },
+        "the_requested_model_does_not_exists": {
+            "en": "The requested staff does not exists.",
+            "sw": "The requested staff does not exists."
+        },
+        "the_user_does_not_have_permission_to_access_the_requested_resource": {
+            "en": "User does not have permission to access the requested resource.",
+            "sw": "User does not have permission to access the requested resource."
+        }
+    }
+}

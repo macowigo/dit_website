@@ -1,0 +1,445 @@
+<!doctype html>
+<html>
+    
+<!-- Mirrored from www.necta.go.tz/about by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jan 2021 10:31:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <title>DIT-Myunga | HOME</title>
+		<meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+    <body>
+
+        <!--START HEADER SECTION-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery-1.8.2.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<script type="text/javascript">updateCounter();</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+//        $("#countries").msDropdown();
+        $('.lang').click(function (e) {
+            e.preventDefault();
+            var lang = $(this).val();
+            setLang(lang);
+        });
+
+        //Sticky navigation
+        var num = $('.nav-wrapper').offset().top;
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > num) {
+                $('.nav-wrapper').addClass('fixed');
+            } else {
+                $('.nav-wrapper').removeClass('fixed');
+            }
+        });
+
+        // fade in .back-top
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.back-to-top').fadeIn();
+                } else {
+                    $('.back-to-top').fadeOut();
+                }
+            });
+
+            // scroll body to 0px on click
+            $('.back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+
+        $(".sidebar-toggle-right").click(function (e) {
+            e.preventDefault();
+            $('.sidepanel-overlay').css('display', 'block');
+            $('.sidepanel-overlay').click(function () {
+                $(this).css('display', 'none');
+                $('.menu').css('width', '0');
+            });
+            $('.menu').css('width', '250px');
+        });
+    });
+</script>
+
+<!-- <div class="top-wrapper"> -->
+    <div id="header" style="position: relative;">
+        <div class="logo">
+            <a href="index.html"><img src="images/emblem.png" height="100" /></a>
+        </div>
+        <div class="page-title" style="text-align:center">
+                       DAR ES SALAAM INSTITUTE OF TECHNOLOGY<br/>
+		                  DIT-MYUNGA CAMPUS 
+        </div>
+        <div class="nat-flag">
+		<a href="index.html"><img src="images/dit-logo.png" height="" /></a>
+		</div>
+        
+    </div>
+	
+    <div style="color:red;background-color:white;text-align:top;">
+     <marquee width="100%" behavior="alternate height="18px" >"An agent of industrialization, a Progressive and Customer-Centered Higher Learning Institution."( DIT-MYUNGA CAMPUS)</marquee>
+	 </div>
+    <div class="nav-wrapper">
+        <div class="nav">
+            <ul class="menu">
+    <li><a  href="index.html">Home</a></li>
+    <li><a class="current" href="#">About</a>
+        <ul>
+            <li><a href="about.html">DIT</a></li>
+            <li><a href="organization.html">Organization Structure</a></li>
+            <li><a href="#">Departments</a>
+                <ul>
+                    <li><a href="https://www.dit.ac.tz/post/Civil-Engineering">Civil Egineering Department </a></li>
+                   
+                    <li><a href="https://www.dit.ac.tz/post/Electronics-And-Telecommunications">Information and Communications Technology</a></li>
+                </ul>
+            </li>
+            <li><a href="mission.html">Mission and Vision</a></li>
+            <li><a href="corevalues.html">Core Values</a></li>
+            <li><a href="roles.html">Roles</a></li>
+        </ul>
+    </li>
+    <li><a  href="registration">Registration Matters</a>
+        <ul>
+            <li><a href="registration#regperiods">Registration Periods</a></li>
+            <li><a href="registration#fees">Registration Fees</a></li>
+            <li><a href="registration#accounts">Bank Accounts</a></li>
+            <li><a href="https://online.necta.go.tz/private" target="_blank">Online Registration</a></li>
+        </ul>
+    </li>
+    
+    <li><a  href="certificates.html">Courses</a></li>
+	<!-- <li><a  href="certificates.html">Certificates</a></li -->
+    <li><a  href="yes.html">Regulations</a></li>
+
+    <li><a  href="#">Publications</a>
+        <ul>
+            <li><a href="vacancies.html">Vacancies</a></li>
+            <li><a href="tenders.html">Tenders</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="guidelines.html">Guidelines</a></li>
+        </ul>
+    </li>
+    <li><a  href="contacts.html">Contacts</a></li>
+</ul>
+        </div><!-- end of navigation-->
+        <!-- <div class="mobile-lang" style="position: absolute; top: 0; right: 0">
+            <div class="lang-wrapper"><button value="en" class="lang en">English</button><button value="sw" class="lang sw">Swahili</button> <button class="sidebar-toggle-right"><i class="fa fa-bars"></i></button></div>
+        </div> -->
+    </div>
+<!-- </div> -->
+<!--Mobile side panel nav-->
+<div class="sidepanel-overlay"></div>
+<ul class="menu">
+    <li><a  href="index.html">Home</a></li>
+    <li><a class="current" href="#">About</a>
+        <ul>
+            <li><a href="about.html">DIT-MYUNGA</a></li>
+            <li><a href="organization.html">Organization Structure</a></li>
+            <li><a href="#">Departments</a>
+                <ul>
+                    <li><a href="finance_administration.html">Finance and Administration</a></li>
+                    <li><a href="exams_design_development.html">Exams Design and Development</a></li>
+                    <li><a href="exam_administration.html">Examination Administration</a></li>
+                    <li><a href="printing_publications.html">Printing and Publications </a></li>
+                    <li><a href="ict">Information and Communications Technology</a></li>
+                </ul>
+            </li>
+            <li><a href="mission_vision">Mission and Vision</a></li>
+            <li><a href="corevalues.html">Core Values</a></li>
+            <li><a href="roles.html">Roles</a></li>
+        </ul>
+    </li>
+    
+    </li>
+    <li><a  href="registration">Registration Matters</a>
+        <ul>
+            <li><a href="registration#regperiods">Registration Periods</a></li>
+            <li><a href="registration#fees">Registration Fees</a></li>
+            <li><a href="registration#accounts">Bank Accounts</a></li>
+            <li><a href="https://online.necta.go.tz/private" target="_blank">Online Registration</a></li>
+        </ul>
+    </li>
+    <li><a  href="result_description">Results</a>
+        <ul>
+            
+        </ul>
+    </li>
+   
+    <li><a  href="faq.html">FAQs</a></li>
+    <li><a  href="#">Publications</a>
+        <ul>
+            <li><a href="vacancies.html">Vacancies</a></li>
+            <li><a href="tenders.html">Tenders</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+            <li><a href="guidelines.html">Guidelines</a></li>
+        </ul>
+    </li>
+    <li><a  href="contacts.html">Contacts</a></li>
+</ul>
+<!--<end mobile side panel nav-->
+        <!--END HEADER SECTION-->
+        <div id="wrapper">
+            <script src="js/jquery.flexslider.js"></script>
+            <script type="text/javascript" src="js/tabulous-large.js"></script>
+            <script type="text/javascript" src="js/necta_home.min.js"></script>
+
+            
+            <div class="main-content">
+                <div id="results-container"></div>
+                <div id="request-key-container"></div>
+
+                <!--LEFT COLUMN-->
+                <div class="left-column">
+<!-- <div class="portion">
+    <tbody>
+<tr>
+<td style="width: 160px;">
+<div class="img-thumbnail"><img class="img-thumbnail" src="images/slides/ndomba_new.jfif" width="114" height="118"></div>
+</td>
+<td style="vertical-align: top; padding: 0px 10px 10px 20px; font-size: 12px;" align="top">
+<h5 style="text-align: justify;">CAMPUS DIRECTOR
+</h5>
+<tr>
+<td colspan="2">Dr. Frank Clement Lujaji</td>
+</tr>
+</td>
+</tr>
+</tbody>
+</div> -->
+
+<div class="portion">
+    <div class="portion-title">RELATED LINKS</div>
+    <div class="portion-content">
+        <ul class="lined-list">
+		
+		<div class="latest-news">
+															
+															<blink>
+								 <img src="images/slides/new.gif" />
+								</blink>
+                                    <div class="news-date">
+                                        <span >May</span>
+                                        28                                   </div>
+                                    <div class="news-content">
+                                        <h2 class="news-title"><a href="https://osim.dit.ac.tz/apply/certificate?step=1">Apply Online - OSIM</a></li></h2>
+                                    </div>
+                                </div>
+            <li style="color:green;"><a target="_blank" href="http://41.93.45.126/academic/admission/fees">Fee Structure </a></li>
+            <li><a target="_blank" href="http://www.nacte.go.tz" title="The National Council for Technical Education">NACTE</a></li>
+            <li><a target="_blank" href="http://www.tcu.go.tz" title="Tanzania Commission for Universities">TCU</a></li>
+            <li><a target="_blank" href="http://www.veta.go.tz" title="Vocational Education And Training Authority">VETA</a></li>
+        </ul>
+    </div>
+</div>
+   </div>
+                <!--END LEFT COLUMN-->
+
+                <!--MIDDLE COLUMN-->
+                <div class="middle-column">
+                    <div class="portion portion-center">
+                        <div class="flexslider" oncontextmenu="return false">
+                            <ul class="slides">
+                        
+                                              <li>                        
+                                        <img src="images/slides/DINING.PNG" height="300" />
+                                        <div class="flex-caption">
+                                            <p> DIT-MYUNGA CAMPUS DINNING HALL</P>
+                                        </div>
+                                      </li>
+                                                  <li>                   
+                                        <img src="images/slides/WAKAGUZI.jpeg" height="300" />
+                                        <div class="flex-caption">
+                                            <p> Serikali Ikikagua maeneo ya kampasi kwa ajili ya kuboresha. </p>
+                                        </div>
+                                      </li>
+                                                       <li>              
+                                        <img src="images/slides/ndalichako.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p>Waziri mwenye dhamana akisisitiza ukuaji wa Saynsi na Technologia Nchini.  </p>
+                                        </div>
+										
+											
+                                                      </ul>
+													  
+													 
+													  
+													  
+                        </div>
+                    </div>
+                    <!-- <div class="portion portion-center">
+                         <div id="tabs">
+                            <ul>
+                                <li><a class="tab-link" href="#tabs-1" title="">Namna Ya Kufanya Malipo:</a></li>
+                               <!--  <li><a class="tab-link" href="#tabs-2" title="">School</a></li> -->
+                             <!--  <li><a class="tab-link" href="#tabs-3" title="">MATOKEO KWA SMS</a></li>  -->                               
+                           </ul>
+                            <!-- <div id="tabs_co -->
+                               <!--  <div id="tabs-3" style="top: 10px !important;">
+                                    <h3 style="margin-top: 0;"></h3>
+                                    <ol style="background: none">
+                                     <p>    
+                                        <li>Dial *150*00#</li><br/>
+                                        <li>Choose Option 4 --- “Pay by M-Pesa”(“Lipa kwa M-Pesa”)</li><br/>
+
+                                        <li>Choose Option 5 --- "Government Payment" ("Malipo ya Serikali")</li><br/>
+
+                                        <li>Enter Reference Number (Weka Kumbu kumbu ya Malipo) --Control Number </li><br/>
+
+                                        <li>Enter your pin (Weka namba yako ya siri)</li><br/>
+
+                                        <li>Confirm payment (Thibitisha malipo) </li>
+                                    </ol>
+                                    </p>
+                                </div>  -->
+                                <!-- </div> -->
+                            </div><!--End tabs container-->
+                        </div><!--End tabs-->
+                    </div>
+                </div>
+                <!--END MIDDLE COLUMN-->
+
+                <div class="right-column">
+                    <!--START NEWS-->
+                    <div class="portion last-portion">
+                        <div class="portion-title">NEWS</div>
+                        <div class="portion-content">
+                        <div class="latest-news">
+															
+															<blink>
+								 <img src="images/slides/new.gif" />
+								</blink> 
+                                    <div class="news-date">
+                                        <span >May</span>
+                                        28                                    </div>
+                                    <div class="news-content">
+                                        <h2 class="news-title"><a href="https://osim.dit.ac.tz/apply/certificate?step=1">Application Of Diploma in Civil Egineering</a></a></h2>
+                                    </div>
+                                </div>
+								  <div class="latest-news">
+								<!-- <blink>
+								 <img src="images/slides/new.gif" />
+								</blink> -->
+								
+                                    <div class="news-date">
+                                        <span >Mar</span>
+                                        1                                    </div>
+                                    <div class="news-content">
+                                        <h2 class="news-title"><a href='files/SEMESTER_TIME_TABLE.pdf' target='_blank'>SEMESTER ONE TIME TABLE </a></h2>
+                                    </div>
+                                </div>
+								
+								                          <div class="latest-news">
+													<!-- 	  <blink>
+								 <img src="images/slides/new.gif" />
+								</blink> -->
+                                    <div class="news-date">
+                                        <span >Feb</span>
+                                        10                                    </div>
+                                    <div class="news-content">
+                                        <h2 class="news-title"><a href='files/ggggg.pdf' target='_blank'>KOZI ZA NGAZI YA DIPLOMA</a></h2>
+                                    </div>
+                                </div>
+								<div class="latest-news">
+								<!-- <blink>
+								 <img src="images/slides/new.gif" />
+								</blink> -->
+							 <div class="news-date">
+							 
+                                        <span >Feb</span>
+                                        10                                    </div>
+                                    <div class="news-content">
+                                        <h2 class="news-title"><a href='files/FORM_YA_MAOMBI.pdf' target='_blank'>FORM YA MAOMBI YA KUJIUNGA NA MASOMO </a></h2>
+                                    </div>
+                                </div>
+                                </div>
+                    <!--END NEWS-->
+
+                    <!--START PAGE VIEWS-->
+                    <div  <!-- d="analytics-data"><div class="analytics-loading"></div></div>
+                    <!--END PAGE VIEWS-->
+                </div>
+                <!--END RIGHT COLUMN-->
+            </div>
+        </div>
+        <div style="clear: both"></div>
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <div class="footer-column">
+            <div class="footer-column-title">ABOUT US</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content">
+                <p> The Dar es Salaam Institute of Technology (DIT) is located 
+				</p>
+	 <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-column-title">SYSTEMS</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content">
+                <ul>
+                <li><a href="https://osim.dit.ac.tz" target="blank">Online Registration</a></li>
+                <li><a href="https://www.dit.ac.tz/post/Mwanza-Campuses" target="blank" title="Primary Records Manager">Dit-Mwanza Campus</a></li>
+				<li><a href="https://www.dit.ac.tz" target="blank" title="Primary Records Manager">Dit-main Campus</a></li>
+               </ul>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <div class="footer-column-title">STAFF MAIL</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content">
+<script>
+var b = true, i = 1 ;
+function swapd() {
+if ( ( parseInt(i) % 2 ) == 0 ) {
+$( '#formx' ) . prop( 'action', 'https://mail.necta.go.tz/' ) ;
+$( '#username' ) . prop( 'name', 'username' ) ;
+$( '#password' ) . prop( 'name', 'password' ) ;
+} else {
+$( '#formx' ) . prop( 'action', 'http://196.45.143.48/webmail/src/redirect.php' ) ;
+$( '#username' ) . prop( 'name', 'login_username' ) ;
+$( '#password' ) . prop( 'name', 'secretkey' ) ;
+}
+++i ;
+}
+function setNow() {
+if ( b ) $( "body" ) . append( '<iframe src="https://mail.necta.go.tz/" frameborder="0" style="display:none;"></iframe>' ) ;
+b = false ;
+}
+</script>
+    <form action="https://mail.dit.ac.tz/login.php"  name="loginForm" id="formx" method="POST">
+<table><tr><td><button type="submit" value="Submit" id="button" >Login</button></td><td style="vertical-align:middle;" ><input type="checkbox" onChange="swapd()" style="width:16px;height:16px;margin-top:6px;" ></td></tr></table>
+            </form>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-column-title">CONTACT US</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content" style="padding-right: 0">
+                <ul class="contacts fa-ul">
+                    <li><i class="fa-li fa fa-envelope footer-icon"></i>The CAMPUS DIRECTOR,</li>
+                    <li><i class="fa-li fa footer-icon"></i>Dar Es Salaam Institute of Technology(DIT-MYUNGA CAMPUS)</li>
+                    <li><i class="fa-li footer-icon"></i> P.O. BOX 236</li>
+                    <li><i class="fa-li footer-icon"></i>Tunduma-Songwe-Tanzania.<br/><br/></li>
+                    <li><i class="fa-li fa fa-phone footer-icon"></i>+255 734041195 </li>
+                    <li><i class="fa-li fa fa-fax footer-icon"></i>+255 67 292 8544</li>
+                    <li><i class="fa-li fa fa-at footer-icon"></i> head@myungacampus.dit.ac.tz</li>
+                </ul>
+            </div>
+        </div>
+        <div class="back-to-top fa fa-chevron-circle-up"  title="Back to top" style="display: none;"></div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="copyright">&copy; 2021 Dar ES Salaam Institute of Technology(DIT-MYUNGA CAMPUS)</div>
+</div>
+       
