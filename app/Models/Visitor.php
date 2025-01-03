@@ -12,6 +12,7 @@ class Visitor extends Model
         'country',
         'city',
         'region',
+        'url',
         'user_agent',
     ];
 }

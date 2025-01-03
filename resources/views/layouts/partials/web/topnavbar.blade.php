@@ -33,18 +33,22 @@
            <li class="menu-item dit-normal-menu"><a href="http://rafic.dit.ac.tz/" target="_blank">EASTRIP (RAFIC)</a></li>
 
                                </ul></li>
-                               <li class="menu-item dit-normal-menu"><a href="" target="_blank">Reseach</a>
+                               <li class="menu-item dit-normal-menu"><a href="" target="_blank">Research</a>
                                  <ul class="sub-menu">
                                    <li class="menu-item dit-normal-menu"><a href="#">Archive</a></li>
-                                   <li class="menu-item dit-normal-menu"><a href="{{route('web.home.project.inhub')}}" target="_self">DIT Publications </a></li>
+                                   <li class="menu-item dit-normal-menu"><a href="" target="_self">DIT Publications </a>
+                                      <ul class="sub-menu">
+                                        <li class="menu-item dit-normal-menu"><a href="{{route('web.home.project.inhub')}}" target="_self">Academic Year (2022-2023) </a></li>
+                                        <li class="menu-item dit-normal-menu"><a href="{{route('web.home.project.inhub2')}}" target="_self">Academic Year (2023-2024) </a></li>
+                                        <li class="menu-item dit-normal-menu"><a href="{{route('web.home.project.inhub2')}}" target="_self"></a></li>
+                                      </ul></li>
                                    <li class="menu-item dit-normal-menu"><a href="https://scholar.google.com/citations?hl=en&view_op=search_authors&mauthors=Dar+es+salaam+institute+of+technology+%28DIT%29&btnG=" target="_blank"> Google Scholar</a></li>
-                                      <li class="menu-item dit-normal-menu"> <a href="https://www.researchgate.net/institution/Dar-es-Salaam-Institute-of-Technology" target="_blank">Research Gates</a></li>
-
-                                       <li class="menu-item dit-normal-menu"><a href="{{route('web.home.project.ongoing')}}" target="_self"> DIT On Going Research </a></li>
+                                   <li class="menu-item dit-normal-menu"> <a href="https://www.researchgate.net/institution/Dar-es-Salaam-Institute-of-Technology" target="_blank">Research Gates</a></li>
+                                   <li class="menu-item dit-normal-menu"><a href="{{route('web.home.project.ongoing')}}" target="_self"> DIT On Going Research </a></li>
                                  </ul></li>
 
                              <li class="menu-item" data-size="60">
-                               <a style ="font-weight: 700;color: #148EB7;" href="https://admission.dit.ac.tz">Apply Now </a></li>
+                              <blink> <a style ="font-weight: 700;color: #FE9638;" href="https://admission.dit.ac.tz">ONLINE APPLICATION </a></li></blink>
 
                         </ul>
                         <div  class="dit-top-bar-right-social"></div><a class="dit-top-bar-right-button" href="{{route('web.campus.index')}}" target="_self">Campuses</a></div>

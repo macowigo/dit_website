@@ -55,6 +55,7 @@ Route::group(
   Route::get('/ntp-project', 'web\HomePageController@ntp')->name('web.home.project.ntp');
   Route::get('/ongoing-projects', 'web\HomePageController@ongoing')->name('web.home.project.ongoing');
   Route::get('/inhub', 'web\HomePageController@inhub')->name('web.home.project.inhub');
+  Route::get('/inhub/2023-2024', 'web\HomePageController@inhub2')->name('web.home.project.inhub2');
 
 
   Route::get('/alumni', 'web\AlumniPageController@index')->name('web.alumni.index');

@@ -71,6 +71,11 @@ class HomePageController extends Controller
     {
       return view('web.home.project.inhub');
     }
+
+    public function inhub2()
+    {
+      return view('web.home.project.inhub2');
+    }
     public function ongoing()
     {
       return view('web.home.project.ongoing');

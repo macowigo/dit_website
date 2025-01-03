@@ -17,7 +17,7 @@ class WebsiteVisitorsController extends Controller
         return view('admin.site_visitors.all-visitors',compact('visitor'));
     }
     public function getVisitorsAll(){
-        $visitors = Visitor::select(['id', 'ip_address', 'country','city','region','created_at']);
+        $visitors = Visitor::select(['id', 'ip_address', 'country','city','region','url','created_at']);
         return Datatables::of($visitors)
             ->editColumn('created_at', function ($visitor) {
                 return $visitor->created_at ? with(new Carbon($visitor->created_at))->format('d/m/Y H:i:s') : '';
@@ -29,7 +29,7 @@ class WebsiteVisitorsController extends Controller
         return view('admin.site_visitors.today-visitors',compact('visitor'));
     }
     public function getVisitorsToday(){
-        $visitors = Visitor::whereDate('created_at', Carbon::today())->select(['id', 'ip_address', 'country','city','region','created_at']);
+        $visitors = Visitor::whereDate('created_at', Carbon::today())->select(['id', 'ip_address', 'country','city','region','url','created_at']);
         return Datatables::of($visitors)
             ->editColumn('created_at', function ($visitor) {
                 return $visitor->created_at ? with(new Carbon($visitor->created_at))->format('d/m/Y H:i:s') : '';
@@ -41,7 +41,7 @@ class WebsiteVisitorsController extends Controller
         return view('admin.site_visitors.week-visitors',compact('visitor'));
     }
     public function getVisitorsThisWeek(){
-        $visitors = Visitor::whereBetween('created_at',[Carbon::now()->startOfWeek(), Carbon::now()->endOfWeek()])->select(['id', 'ip_address', 'country','city','region','created_at']);
+        $visitors = Visitor::whereBetween('created_at',[Carbon::now()->startOfWeek(), Carbon::now()->endOfWeek()])->select(['id', 'ip_address', 'country','city','region','url','created_at']);
         return Datatables::of($visitors)
             ->editColumn('created_at', function ($visitor) {
                 return $visitor->created_at ? with(new Carbon($visitor->created_at))->format('d/m/Y H:i:s') : '';
@@ -54,7 +54,7 @@ class WebsiteVisitorsController extends Controller
         return view('admin.site_visitors.month-visitors',compact('visitor'));
     }
     public function getVisitorsThisMonth(){
-        $visitors = Visitor::whereMonth('created_at',Carbon::now()->month)->whereYear('created_at', Carbon::now()->year)->select(['id', 'ip_address', 'country','city','region','created_at']);
+        $visitors = Visitor::whereMonth('created_at',Carbon::now()->month)->whereYear('created_at', Carbon::now()->year)->select(['id', 'ip_address', 'country','city','region','url','created_at']);
         return Datatables::of($visitors)
             ->editColumn('created_at', function ($visitor) {
                 return $visitor->created_at ? with(new Carbon($visitor->created_at))->format('d/m/Y H:i:s') : '';

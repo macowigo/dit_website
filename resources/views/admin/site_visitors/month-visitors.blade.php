@@ -39,6 +39,7 @@
                         <th>Country</th>
                         <th>City</th>
                         <th>Region</th>
+                        <th>Url</th>
                         <th>Visited At</th>
                     </tr>
                 </thead>
@@ -110,6 +111,7 @@ var _datatable = $('#datatable').DataTable({
         {data: 'country', name: 'country'},
         {data: 'city', name: 'city'},
         {data: 'region', name: 'region'},
+        {data: 'url', name: 'url'},
         {data: 'created_at', name: 'created_at'},
     ]
 });
